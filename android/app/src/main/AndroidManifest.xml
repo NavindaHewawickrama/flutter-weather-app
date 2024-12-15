@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <use-permission android:name="android,permission,ACESS_FINE_LOCATION" />
+    <use-permission android:name="android,permission,ACESS_COARSE_LOCATION" />
     <application
         android:label="my_weather_app"
         android:name="${applicationName}"
